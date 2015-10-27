@@ -1,0 +1,172 @@
+/*Resetting defaults*/
+body, div, h1, h2, h3, h4, p{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-weight: normal;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+
+/*Styles*/
+body {
+    background-image: url("../img/bckgrnd.png");
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+#main {
+    width: 640px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 115px;
+    background-color: #000;
+    margin-bottom: 20px;
+}
+
+.bullets {
+    width: 60px;
+    height: 115px;
+    background-image: url("../img/header-bg.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.logo{
+    height: 96px;
+    overflow: hidden;
+    padding: 19px 125px 0;
+}
+
+.logo > span{
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content {
+    min-height: calc(100vh - 310px);
+    overflow: hidden;
+    background-color: #fff;
+    padding: 35px 25px 35px 0;
+}
+
+#content .content-holder {
+    overflow: hidden;
+    background-image: url("../img/separator.png");
+    background-repeat: repeat-y;
+}
+
+#content .menu {
+    font-weight: bold;
+    width: 185px;
+    list-style-image: url("../img/bullet.png");
+    margin: 0;
+}
+
+#content .submenu {
+    list-style-image: url("../img/bullet-secondary.png");
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+#content .sidebar {
+    margin: 0;
+    width: 200px;
+    float: left;
+}
+
+#content .text-content {
+    width: 400px;
+    float: right;
+}
+
+.text-content > h1 {
+    margin-top: 0;
+}
+
+.text-content > h3 {
+    margin-top: 0;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.menu > li {
+    margin-bottom: 5px;
+}
+
+.menu > li > a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu > li > a:hover {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+.menu > li:hover {
+    list-style-image: url("../img/bullet-active.png");
+}
+
+.submenu > li > a:link {
+    font-size: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.submenu > li > a:hover {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+.submenu > li:hover {
+    list-style-image: url("../img/bullet-secondary-active.png");
+}
+
+#footer {
+    height: 125px;
+    background-color: #000;
+    background-image: url("../img/footer-bg.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 0 25px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.contacts {
+    color: #fff;
+    height: 125px;
+    float: left;
+}
+
+.contacts > span {
+    position: absolute;
+    top: 50px;
+    width: 450px;
+}
+
+.logo-secondary {
+    height: 100px;
+    width: 90px;
+    float: right;
+    background-image: url("../img/logo-sense.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
