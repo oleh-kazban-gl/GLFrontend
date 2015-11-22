@@ -1,0 +1,377 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, img, small, strong, center, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, figure, figcaption, footer, header, menu, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 12px;
+    background: #9e9e80;
+}
+
+#wrapper {
+    width: 768px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px #393937;
+    border: solid 1px #858585;
+    border-top: none;
+    background: #f7f8dd;
+}
+
+#header {
+    width: 100%;
+    height: 135px;
+    background: url(../img/header.png) no-repeat center;
+}
+
+.logo_wrapper {
+    width: 275px;
+    padding: 15px 0 15px 15px;
+}
+
+.logo {
+    width: 275px;
+    height: 85px;
+    background: url(../img/logo.png) no-repeat center;
+}
+
+.phone {
+    font-weight: bold;
+    font-size: 13px;
+    color: #871a01;
+    position: relative;
+    left: 45px;
+    top: -10px;
+}
+
+#main_navigation {
+    width: 100%;
+    height: 35px;
+    background: #919b3d;
+    font-family: Oswald;
+}
+
+.menu {
+
+}
+
+.menu li {
+    float: left;
+    border-right: solid 1px #f7f8dd;
+}
+
+.menu li:last-child {
+    border-right: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 9px 22px;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+}
+
+.menu ul {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+.menu li:hover {
+    position: relative;
+    background: #f7f8dd;
+    border-top: solid 5px #919b3d;
+    height: 30px;
+}
+
+.menu li:hover a {
+    color: #919b3d;
+    top: -5px;
+}
+
+.menu li:hover ul {
+    left: -1px;
+    top: 30px;
+    background: rgba(247, 248, 221, 0.75);
+    padding: 0;
+}
+
+.menu li:hover ul li {
+    height: 35px;
+    border: none;
+}
+
+.menu li:hover ul li a {
+    display: block;
+    width: 112px;
+    top: 0;
+    font-weight: 300;
+    font-size: 12px;
+    color: #000;
+}
+
+#bottom_navigation {
+    height: 55px;
+    background: #d3d471;
+    border-left: solid 2px #f7f8dd;
+    border-right: solid 2px #f7f8dd;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.secondary_menu {
+
+}
+
+.secondary_menu li {
+    float: left;
+    padding: 0 20px;
+    border-right: solid 1px #871a01;
+}
+
+.secondary_menu li:last-child {
+    border-right: none;
+}
+
+.secondary_menu li a {
+    text-decoration: none;
+    color: #871a01;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+#main_wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+#sidebar {
+    width: 218px;
+    float: left;
+    background: #d3d471;
+    border-left: solid 2px #f7f8dd;
+    border-right: solid 2px #f7f8dd;
+    border-top: solid 2px #f7f8dd;
+}
+
+.sidebar_search {
+    padding: 15px;
+    border-bottom: dotted 1px #f7f8dd;
+}
+
+.sidebar_search h2 {
+    text-transform: uppercase;
+    color: #871a01;
+    font-weight: bold;
+    font-family: Oswald;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.sidebar_search select {
+    width: 188px;
+    margin-bottom: 5px;
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding: 3px;
+    border: solid 1px #000;
+}
+
+.sidebar_search input {
+    width: 180px;
+    margin-bottom: 5px;
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding: 3px;
+    border: solid 1px #000;
+}
+
+.sidebar_search button {
+    width: 90px;
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-size: 11px;
+    border: solid 1px #000;
+    background: url(../img/button_bg.png);
+    margin-right: 5px;
+}
+
+.sidebar_search button:last-child {
+    margin-right: 0;
+}
+
+.sidebar_search img {
+    width: 188px;
+    height: 250px;
+}
+
+.sidebar_search ul {
+    padding: 15px;
+}
+
+.sidebar_search ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar_search ul li:last-child {
+    margin-bottom: 0;
+}
+
+.sidebar_search ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#content {
+    width: 546px;
+    float: right;
+}
+
+.banner {
+    width: 100%;
+    height: 235px;
+    background: url(../img/banner.png) center no-repeat;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#content_wrapper {
+    padding: 15px;
+}
+
+.banner h2 {
+    position: relative;
+    top: 170px;
+    color: #fff;
+    font-family: Oswald;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.content {
+    float: left;
+    width: 346px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.content p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.content p:last-child {
+    margin-bottom: 0;
+}
+
+.listings {
+    width: 170px;
+    float: right;
+}
+
+.listings h3 {
+    font-family: Oswald;
+    font-size: 13px;
+    color: #871a01;
+    margin-bottom: 10px;
+}
+
+.listing {
+}
+
+.info {
+    padding: 10px;
+}
+
+.listing img {
+    width: 170px;
+    height: 110px;
+}
+
+.listing span {
+    display: block;
+    width: 170px;
+    margin-bottom: 5px;
+}
+
+.location {
+    font-weight: bold;
+}
+
+.price {
+}
+
+.listing a {
+    display: block;
+    width: 170px;
+    text-decoration: none;
+    color: #871a01;
+}
+
+#contacts {
+    width: 100%;
+    height: 60px;
+    background: #f7f8dd;
+    padding: 15px 0;
+    box-sizing: border-box;
+}
+
+#contacts span {
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    color: #585921;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contacts span strong {
+    font-weight: 600;
+}
+
+#adv {
+    width: 780px;
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.logos {
+    width: 200px;
+    float: left;
+}
+
+.logos img {
+    padding: 0 5px;
+}
+
+.adv {
+    width: 580px;
+    line-height: 30px;
+    float: right;
+}
+
+.adv span {
+    padding: 0 10px;
+    color: #d3d471;
+
+}
