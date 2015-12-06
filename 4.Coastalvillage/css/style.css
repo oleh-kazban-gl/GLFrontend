@@ -1,4 +1,46 @@
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, img, small, strong, center, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, figure, figcaption, footer, header, menu, nav, section {
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+img,
+small,
+strong,
+center,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+section {
     margin: 0;
     padding: 0;
     border: 0;
@@ -7,7 +49,8 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, img, small
     vertical-align: baseline;
 }
 
-ol, ul {
+ol,
+ul {
     list-style: none;
 }
 
@@ -23,12 +66,13 @@ body {
 }
 
 #wrapper {
-    width: 768px;
+    width: 769px;
     margin: 0 auto;
     box-shadow: 0 0 20px #393937;
     border: solid 1px #858585;
     border-top: none;
-    background: #f7f8dd;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
 }
 
 #header {
@@ -59,32 +103,38 @@ body {
 
 #main_navigation {
     width: 100%;
-    height: 35px;
-    background: #919b3d;
+    height: 34px;
     font-family: Oswald;
 }
 
 .menu {
-
+    height: 34px;
+    background: url(../img/menu_bg.png) repeat-x;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
 .menu li {
     float: left;
+    height: 34px;
     border-right: solid 1px #f7f8dd;
 }
 
 .menu li:last-child {
-    border-right: none;
+    border-image: url(../img/menu_bg.png) 1;
+}
+
+.menu li:last-child:hover {
+    border-image: url(../img/menu_bg_hover.png) 1;
 }
 
 .menu li a {
     text-decoration: none;
     text-transform: uppercase;
     display: block;
-    padding: 9px 22px;
+    padding: 8px 22px;
     font-weight: bold;
     color: #fff;
-    position: relative;
 }
 
 .menu ul {
@@ -95,26 +145,27 @@ body {
 
 .menu li:hover {
     position: relative;
-    background: #f7f8dd;
-    border-top: solid 5px #919b3d;
-    height: 30px;
+    background: url(../img/menu_bg_hover.png) repeat-x;
 }
 
 .menu li:hover a {
     color: #919b3d;
-    top: -5px;
 }
 
 .menu li:hover ul {
     left: -1px;
-    top: 30px;
-    background: rgba(247, 248, 221, 0.75);
+    top: 34px;
     padding: 0;
 }
 
 .menu li:hover ul li {
-    height: 35px;
+    height: 34px;
     border: none;
+    background: rgba(247, 248, 221, 0.75);
+}
+
+.menu li:hover ul li:hover {
+    background: #f7f8dd;
 }
 
 .menu li:hover ul li a {
@@ -131,12 +182,12 @@ body {
     background: #d3d471;
     border-left: solid 2px #f7f8dd;
     border-right: solid 2px #f7f8dd;
-    padding: 20px 0;
+    padding: 20px 4px;
     box-sizing: border-box;
 }
 
 .secondary_menu {
-
+    height: 12px;
 }
 
 .secondary_menu li {
@@ -159,6 +210,7 @@ body {
 #main_wrapper {
     width: 100%;
     overflow: hidden;
+    background: #f7f8dd;
 }
 
 #sidebar {
@@ -212,6 +264,7 @@ body {
     border: solid 1px #000;
     background: url(../img/button_bg.png);
     margin-right: 5px;
+    padding: 0;
 }
 
 .sidebar_search button:last-child {
@@ -224,7 +277,7 @@ body {
 }
 
 .sidebar_search ul {
-    padding: 15px;
+    padding: 15px 15px 0;
 }
 
 .sidebar_search ul li {
@@ -295,6 +348,7 @@ body {
 }
 
 .listing {
+    width: 170px;
 }
 
 .info {
@@ -316,8 +370,7 @@ body {
     font-weight: bold;
 }
 
-.price {
-}
+.price {}
 
 .listing a {
     display: block;
@@ -373,5 +426,4 @@ body {
 .adv span {
     padding: 0 10px;
     color: #d3d471;
-
 }

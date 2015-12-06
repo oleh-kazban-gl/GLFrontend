@@ -1,5 +1,6 @@
 /*Resetting defaults*/
-body{
+
+body {
     margin: 0;
     font-size: 12px;
     line-height: 14px;
@@ -7,7 +8,11 @@ body{
     font-family: sans-serif;
 }
 
-h1, h2, h3, h4, p{
+c h1,
+h2,
+h3,
+h4,
+p {
     margin: 0;
 }
 
@@ -17,11 +22,10 @@ ul {
     list-style: none;
 }
 
-a {
+sa a {
     text-decoration: none;
     color: #000;
 }
-
 
 #main {
     width: 640px;
@@ -43,15 +47,15 @@ a {
     overflow: hidden;
 }
 
-.left{
+.left {
     float: left;
 }
 
-.right{
+.right {
     float: right;
 }
 
-.logo{
+.logo {
     height: 96px;
     overflow: hidden;
     padding: 19px 125px 0;
@@ -118,7 +122,7 @@ a {
     list-style-image: url("../img/bullet-secondary.png");
 }
 
-#menu ul li:hover li a{
+#menu ul li:hover li a {
     color: #000;
 }
 
@@ -126,7 +130,7 @@ a {
     list-style-image: url("../img/bullet-secondary-active.png");
 }
 
-#menu ul li li:hover a{
+#menu ul li li:hover a {
     color: #f00;
 }
 

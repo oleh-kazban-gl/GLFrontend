@@ -1,4 +1,6 @@
-body, div, p {
+body,
+div,
+p {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -7,7 +9,12 @@ body, div, p {
     font-weight: normal;
 }
 
-h1, h2, h3, h4, ul, li {
+h1,
+h2,
+h3,
+h4,
+ul,
+li {
     margin: 0;
     padding: 0;
     font-size: 12px;
@@ -75,7 +82,8 @@ a {
     padding: 15px 25px 0;
 }
 
-.sidebar-nav-menu, .sidebar-nav-menu > li {
+.sidebar-nav-menu,
+.sidebar-nav-menu > li {
     display: inline;
 }
 
@@ -117,7 +125,6 @@ a {
 
 #sidebar-menu > ul {
     padding: 0 30px;
-
 }
 
 #sidebar-menu > ul > li {
@@ -211,17 +218,16 @@ a {
     padding: 19px;
 }
 
-#main-content div > h2{
+#main-content div > h2 {
     color: #cc0000;
     font-size: 13px;
     font-weight: bold;
     margin: 20px 0;
 }
 
-#main-content div > p{
-}
+#main-content div > p {}
 
-#main-content div > img{
+#main-content div > img {
     float: right;
     overflow: hidden;
     margin: 0px 0 10px 10px;
@@ -231,13 +237,13 @@ a {
     overflow: hidden;
 }
 
-.post > a.read-more{
+.post > a.read-more {
     color: #cc0000;
     float: right;
     font-weight: bold;
 }
 
-.post > a.read-more:hover{
+.post > a.read-more:hover {
     text-decoration: underline;
 }
 
