@@ -1,0 +1,406 @@
+body {
+    background: #080304;
+    position: relative;
+}
+
+#header {
+    height: 315px;
+    width: 100%;
+    background: #080304;
+    position: relative;
+}
+
+#header-login {
+    height: 55px;
+    width: 755px;
+    margin: 0 auto;
+}
+
+#header-login > h1#logo {
+    width: 205px;
+    height: 55px;
+    float: left;
+}
+
+#header-login > h1#logo > a {
+    display: block;
+    width: 205px;
+    height: 55px;
+    background: url(../img/logo.png) no-repeat 0 0;
+}
+
+#header-login > #login-menu {
+    float: right;
+    padding: 12px 0;
+}
+
+#login-menu > li {
+    float: left;
+    padding: 5px;
+}
+
+#login-menu > li > label {
+    color: #8d8d8d;
+    font-size: 10px;
+}
+
+#login-menu > li > input[type=text] {
+    width: 100px;
+    height: 16px;
+    font-size: 12px;
+    padding: 2px;
+}
+
+#header-block {
+    height: 260px;
+    width: 100%;
+    background: #2e5b14 url(../img/bg-header.png) no-repeat center center;
+}
+
+#header-block-content {
+    width: 755px;
+    height: 260px;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 10;
+}
+
+#header-block-content > .content {
+    width: 400px;
+    float: left;
+    color: #fff;
+    padding: 0 0 0 30px;
+    position: absolute;
+    bottom: 45px;
+}
+
+#header-block-content > .content > h2 {
+    font-size: 24px;
+}
+
+#header-block-content > .content > p {
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px 0;
+}
+
+#header-block-content > .content > .navigation {
+    float: right;
+}
+
+#header-block-content > .video {
+    float: right;
+}
+
+#header-block-content > .deco {
+    position: absolute;
+    top: -25px;
+    right: -240px;
+    background: url(../img/bg-header-deco.png) no-repeat;
+    width: 239px;
+    height: 176px;
+}
+
+#header-block-content > .menu {
+    width: 100%;
+    height: 25px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+}
+
+#header-block-content > .menu > li {
+    float: left;
+    height: 25px;
+    padding: 0 3px 0 0;
+}
+
+.menu > li > a {
+    color: #fff;
+    display: block;
+    height: 25px;
+    background: rgba(0, 0, 0, 0.25);
+    padding: 6px 29px;
+    box-sizing: border-box;
+    transition: background 0.25s;
+}
+
+.menu > li > a.active {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.menu > li > a:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#content {
+    width: 755px;
+    margin: 0 auto;
+    min-height: calc(100vh - 370px);
+    padding: 20px 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#content > .deco {
+    position: absolute;
+    top: -45px;
+    left: -220px;
+    background: url(../img/bg-content-deco.png) no-repeat;
+    width: 153px;
+    height: 167px;
+    z-index: -1;
+}
+
+#content > #content-wrapper {
+    width: 755px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#content-wrapper > #content-container {
+    width: 480px;
+    float: left;
+    z-index: 10;
+    position: relative;
+}
+
+#content-container > #content-feed {
+}
+
+#content-feed > .post {
+
+}
+
+.post > h2 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    padding: 0 0 10px 0;
+}
+
+.post > h3 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.post > p {
+    color: #98d374;
+    text-align: left;
+    padding: 5px 0;
+}
+
+.post a {
+    color: #63e115;
+    text-decoration: underline;
+}
+
+.post > .message {
+    width: 480px;
+    border: solid 3px #999;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.post > .message > .header {
+    color: #fff;
+    background: url(../img/post-message-header.png) repeat-x;
+    height: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.post > .message > .content {
+    background: #389103 url(../img/sidebar-block-content.png) repeat-x 0 0;
+    padding: 10px;
+}
+
+.post > .message > .content > p {
+    text-align: justify;
+    color: #fff;
+}
+
+.post > .sign-up {
+    width: 480px;
+    border: solid 3px #999;
+    margin: 10px 0;
+    box-sizing: border-box;
+    background: #dedede;
+    color: #333;
+    padding: 20px 10px;
+}
+
+.post > .sign-up > h3 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.post > .sign-up label {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.post > .sign-up > .row {
+    width: 225px;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.post > .sign-up .btn {
+    text-transform: uppercase;
+    height: 30px;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+}
+
+#content-wrapper > #sidebar {
+    width: 255px;
+    float: right;
+    overflow: hidden;
+    z-index: 10;
+    position: relative;
+}
+
+#sidebar > li {
+    width: 249px;
+    border: solid 3px #999;
+    margin: 4px 0;
+}
+
+#sidebar > li.expand {
+    margin: 0px 0 18px 0;
+}
+
+#sidebar > li > .header {
+    height: 25px;
+    background: url(../img/sidebar-block-header.png) repeat-x;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    padding: 4px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+#sidebar > li > .header > .pointer {
+    width: 40px;
+    height: 18px;
+    background: url(../img/pointer.png) no-repeat 11px 0;
+    float: left;
+}
+
+#sidebar > li > .content {
+    background: #389103 url(../img/sidebar-block-content.png) repeat-x 0 0;
+    padding: 10px 10px 5px;
+}
+
+#sidebar > li > .content > ul > li {
+    padding: 10px 0;
+}
+
+#sidebar > li > .content > ul > li > span {
+    display: block;
+}
+
+#sidebar > li > .content > ul > li > .header {
+    color: #fff;
+    font-weight: bold;
+    padding: 0 0 5px 0;
+}
+
+#sidebar > li > .content > ul > li > .message {
+    color: #333;
+}
+
+#footer {
+    height: 55px;
+    width: 100%;
+    background: url(../img/bg-footer.png) repeat-x;
+    position: absolute;
+    bottom: -55px;
+}
+
+#footer-content {
+    width: 755px;
+    margin: 0 auto;
+    font-size: 10px;
+    color: #fff;
+    position: relative;
+}
+
+#footer-content > .tree {
+    position: absolute;
+    bottom: 40px;
+    right: -240px;
+    background: url(../img/bg-footer-deco.png) no-repeat;
+    width: 391px;
+    height: 297px;
+    z-index: -1;
+}
+
+#footer-content .cell {
+    width: 33%;
+    height: 55px;
+    padding: 22px 0;
+    box-sizing: border-box;
+    display: table-cell;
+}
+
+#footer-content .author {
+    text-align: right;
+}
+
+#footer-content ul > li {
+    display: block;
+    padding: 0 5px;
+    float: left;
+    border-right: solid 1px #fff;
+}
+
+#footer-content ul > li:last-child {
+    border-right: none;
+}
+
+#footer-content a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: solid 1px #23da08;
+}
+
+.btn {
+    background: url(../img/bg-btn.png) repeat-x;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    font-size: 10px;
+    display: inline-block;
+    border: solid 1px #466e36;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: url(../img/bg-btn-hover.png) repeat-x;
+}
+
+.video {
+    background: url(../img/video.png) no-repeat;
+    width: 255px;
+    height: 193px;
+}
+
+.menu > li > a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
